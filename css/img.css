@@ -1,0 +1,23 @@
+.icon {
+  width: 35px;
+  float: left;
+  padding-right: 10px;
+}
+
+.img-small {
+  border-radius: 90px;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.img-medium{
+  border-radius: 90px;
+  width: 150px;
+}
+
+.img-large {
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 200px;
+}

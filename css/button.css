@@ -1,0 +1,20 @@
+.button {
+  display: inline-block;
+  border: 1px solid #89898a;
+  border-radius: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 40px;
+  text-shadow: 2px 1px 5px rgba(0, 0, 0, 3);
+  font-weight: normal;
+}
+
+.button-red {
+  background: red;
+  color: #fff4fd;
+}
+
+.button-blue {
+  background: #3b89ec;
+  color: #fff4fd;
+}

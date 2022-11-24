@@ -1,0 +1,33 @@
+.emotion {
+  padding: 40px 0;
+}
+
+.emotion-bgd {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) 100%),
+  url("../img/rose.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom, center;
+}
+
+.emotion .title-medium {
+  color: white;
+}
+
+.emotion .window {
+  background: white;
+  text-align: center;
+  border-radius: 40px;
+  width: 70%;
+  padding: 20px;
+}
+
+.emotion .container {
+  width: 60%;
+}
+
+.emotion p {
+  padding: 5px;
+  font-weight: bold;
+}

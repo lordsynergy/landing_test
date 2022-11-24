@@ -1,0 +1,12 @@
+.team {
+  display: inline-block;
+  padding: 50px;
+  background: white;
+  box-shadow: 0px 0px 15px 15px white;
+}
+
+.team-photo {
+  width: 250px;
+  border: 2px solid gray;
+  border-radius: 30px;
+}

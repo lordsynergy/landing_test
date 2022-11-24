@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  opacity: 0.85;
+}
+
+.header-nav {
+  float: right;
+  vertical-align: baseline;
+  line-height: 36px;
+}
+
+.header-nav-item {
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .header {
+    position: inherit;
+    width: auto;
+  }
+
+  .header-nav {
+    float: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-nav-item {
+    display: inline-block;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,25 @@
+.intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) 100%),
+  url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom, center;
+
+  color: #fff;
+  height: 90vh;
+  padding: 60px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro .title-large {
+  color: red;
+  margin: auto;
+}
+
+.intro .text-lead {
+  max-width: 80%;
+  margin: 40px auto;
+  color: #f7f7f7;
+}
