@@ -24,6 +24,11 @@
   font-weight: bold;
 }
 
+.header-nav-link:hover {
+  color: black;
+  transition: all ease .3s;
+}
+
 @media (max-width: 640px) {
   .header {
     position: inherit;

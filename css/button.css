@@ -14,7 +14,17 @@
   color: #fff4fd;
 }
 
+.button-red:hover {
+  background: #cf0003;
+  transition: all ease .3s;
+}
+
 .button-blue {
   background: #3b89ec;
   color: #fff4fd;
+}
+
+.button-blue:hover {
+  background: #3c27de;
+  transition: all ease .3s;
 }
